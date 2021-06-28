@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(SIMPLE_STEADY)
 
-include_directories(D:/ProgrammingLibs/)
 set(CMAKE_CXX_STANDARD 11)
 add_executable(SIMPLE main.cpp utils.h utils.cpp)
 FIND_PACKAGE(OpenMP REQUIRED)
